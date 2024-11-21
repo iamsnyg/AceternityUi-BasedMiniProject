@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/nextjsproject/my-app/src/lib/utils.ts"],"sourcesContent":["import { ClassValue, clsx } from \"clsx\";\r\nimport { twMerge } from \"tailwind-merge\";\r\n\r\nexport function cn(...inputs: ClassValue[]) {\r\n  return twMerge(clsx(inputs));\r\n}\r\n"],"names":[],"mappings":";;;AAAA;AACA;;;AAEO,SAAS,GAAG,GAAG,MAAoB;IACxC,OAAO,CAAA,GAAA,8JAAA,CAAA,UAAO,AAAD,EAAE,CAAA,GAAA,wIAAA,CAAA,OAAI,AAAD,EAAE;AACtB"}},
+    {"offset": {"line": 20, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file://C%3A/nextjsproject/my-app/src/components/Navbar.tsx"],"sourcesContent":["\"use client\";\r\n// import React from 'react'\r\nimport React, { useState } from \"react\";\r\nimport { HoveredLink, Menu, MenuItem, ProductItem } from \"./ui/navbar-menu\";\r\nimport { cn } from \"../lib/utils\";\r\nimport Link from \"next/link\";\r\n\r\n\r\nfunction Navbar({ className }: { className?: string }) {\r\n\r\n  \r\n  const [active, setActive] = useState<string | null>(null);\r\n\r\n  return (\r\n    <div\r\n    className={cn(\"fixed top-10 inset-x-0 max-w-2xl mx-auto z-50\", className)}\r\n    >\r\n      <Menu ></Menu>\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default Navbar"],"names":[],"mappings":";;;;AACA,4BAA4B;AAC5B;AACA;AACA;;;AAJA;;;;AAQA,SAAS,OAAO,EAAE,SAAS,EAA0B;;IAGnD,MAAM,CAAC,QAAQ,UAAU,GAAG,CAAA,GAAA,6JAAA,CAAA,WAAQ,AAAD,EAAiB;IAEpD,qBACE,6LAAC;QACD,WAAW,CAAA,GAAA,sHAAA,CAAA,KAAE,AAAD,EAAE,iDAAiD;kBAE7D,cAAA,6LAAC,6IAAA,CAAA,OAAI;;;;;;;;;;AAGX;GAZS;KAAA;uCAcM"}},
+    {"offset": {"line": 64, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

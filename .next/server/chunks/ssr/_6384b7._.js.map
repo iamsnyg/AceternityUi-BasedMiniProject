@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/nextjsproject/my-app/src/app/page.tsx"],"sourcesContent":["// import { main } from \"framer-motion/client\";\nimport Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    main\n  );\n}\n"],"names":[],"mappings":"AAAA,+CAA+C;;;;AAGhC,SAAS;IACtB,OACE;AAEJ"}},
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
